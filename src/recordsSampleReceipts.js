@@ -1,4 +1,4 @@
-const receipt1 =
+const receipts = [
   {
     person: 'Andre',
     order: {
@@ -13,8 +13,8 @@ const receipt1 =
       cost: 22
     },
     paid: false
-  }
-const receipt2 = {
+  },
+  {
   person: 'Katelyn',
   order: {
     main: 'Rice Bowl',
@@ -28,8 +28,8 @@ const receipt2 = {
     cost: 19
   },
   paid: false
-}
-const receipt3 = {
+},
+{
   person: 'Bruno',
   order: {
     main: 'Salad Bowl',
@@ -44,3 +44,4 @@ const receipt3 = {
   },
   paid: true
 }
+]
