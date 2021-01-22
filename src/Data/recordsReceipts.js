@@ -1,6 +1,6 @@
 const receipts = [
   {
-    person: 'Andre',
+    person: 'Steve',
     order: {
       main: 'Burrito',
       protein: 'Organic Tofu',
@@ -15,33 +15,35 @@ const receipts = [
     paid: false
   },
   {
-  person: 'Katelyn',
-  order: {
-    main: 'Rice Bowl',
-    protein: 'Ginger Soy Chix',
-    rice: 'Sticky Rice',
-    sauce: 'Korilla',
-    toppings: [
-      'Yuzu Pickled Sweet Pepper', 'Kale'
-    ],
-    drink: 'Korchata',
-    cost: 19
+    person: 'Maddy',
+    order: {
+      main: 'Rice Bowl',
+      protein: 'Ginger Soy Chix',
+      rice: 'Sticky Rice',
+      sauce: 'Korilla',
+      toppings: [
+        'Yuzu Pickled Sweet Pepper', 'Kale'
+      ],
+      drink: 'Korchata',
+      cost: 19
+    },
+    paid: false
   },
-  paid: false
-},
-{
-  person: 'Bruno',
-  order: {
-    main: 'Salad Bowl',
-    protein: 'Organic Tofu',
-    rice: 'none',
-    sauce: "K'lla",
-    toppings: [
-      'Blue Potato Salad', 'Pico De Gallo', 'Red Kimchi'
-    ],
-    drink: 'Sparkling Blood Orange Soda',
-    cost: 20
-  },
-  paid: true
-}
-]
+  {
+    person: 'Derrick',
+    order: {
+      main: 'Salad Bowl',
+      protein: 'Organic Tofu',
+      rice: 'none',
+      sauce: "K'lla",
+      toppings: [
+        'Blue Potato Salad', 'Pico De Gallo', 'Red Kimchi'
+      ],
+      drink: 'Sparkling Blood Orange Soda',
+      cost: 20
+    },
+    paid: true
+  }
+];
+
+export default receipts;

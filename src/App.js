@@ -1,16 +1,13 @@
 import './App.css';
-import Receipt from "./components/Receipt";
+import Receipt from "./components/Receipt"
 import { useState } from "react";
-import 
+import receiptData from "./data/recordsReceipts";
 
 function App() {
-
-  const [receipts, setReceipts] = useState(receipts);
-  console.log(receipts);
-
+  const [receipts, setReceipts] = useState(receiptData);
   return (
     <div className="App">
-     
+      <Header />
     </div>
   );
 }
