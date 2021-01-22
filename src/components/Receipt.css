@@ -3,18 +3,17 @@ header {
   margin: auto;
   background: white;
   font-weight: bold;
-
 }
 .receipt-container {
-	width: 40%;
-	text-align: left;
-	margin: 0 auto;
-	height: auto;
-	display: flex;
-	flex-direction: column;
+  width: 40%;
+  text-align: left;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-	border-bottom: 7px solid orange;
-	border-right: 7px solid orange;
+  border-bottom: 7px solid orange;
+  border-right: 7px solid orange;
   border-left: 7px solid orange;
   border-top: 7px solid orange;
   background: white;
@@ -24,24 +23,26 @@ header {
   color: black;
   margin: 0 auto;
   margin-top: 1em;
-  
 }
 
+h3 {
+  font-size: 33px;
+}
 
 .receipt-container ul {
-	text-align: left;
-	margin-right: 3em;
-	list-style-type: none;
+  text-align: left;
+  margin-right: 3em;
+  list-style-type: none;
 }
 
 .receipt-container ul li {
-	margin: 10px 0;
+  margin: 10px 0;
 }
 
 .receipt-categories {
-	color: rgba(51, 6, 123, 0.934);
-	font-weight: bold;
-	float: left;
+  color: rgba(51, 6, 123, 0.934);
+  font-weight: bold;
+  float: left;
 }
 
 .receipt-info {
