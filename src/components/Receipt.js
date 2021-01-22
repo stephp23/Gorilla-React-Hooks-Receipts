@@ -20,8 +20,10 @@ function Receipt({ person, ...receiptsDetails }) {
             <li><span class="receipt-categories">Rice:</span> {receiptsDetails.order.rice}</li>
             <li><span class="receipt-categories">Sauce:</span> {receiptsDetails.order.sauce}</li>
             <li><span class="receipt-categories">Drink:</span> {receiptsDetails.order.drink}</li>
-            <li><span class="receipt-categories">Toppings:</span> {receiptsDetails.order.toppings}</li>
-            <li><span class="receipt-categories">Cost:</span> {`$`} {receiptsDetails.order.cost} </li>
+            <li><span class="receipt-categories">Toppings:</span> {receiptsDetails.order.toppings.map((topping, index) => {
+              return `${ topping } , `;
+                })}</li>
+            <li><span class="receipt-categories">Cost:</span> {`$`}{receiptsDetails.order.cost} </li>
         </ul>
     
     {/* <div className="receiptPayment-container">
