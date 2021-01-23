@@ -1,4 +1,4 @@
-//import { useState } from "react";
+
 import "./Receipt.css";
 
 function Receipt({ person, ...receiptsDetails }) {
